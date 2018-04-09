@@ -177,7 +177,7 @@ describe('jquery.rss', function () {
 
     it('uses feedrapp.info if ssl is turned off', function (done) {
       this.ajaxStub = this.stub($, 'getJSON', function (apiUrl) {
-        expect(apiUrl).toMatch(/https:\/\/www\.feedrapp\.info/);
+        expect(apiUrl).toMatch(/http:\/\/www\.feedrapp\.info/);
         done();
       });
 
