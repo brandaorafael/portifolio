@@ -1,6 +1,6 @@
 var app = angular.module('Portifolio');
 
-app.directive('headerPortifolio', ["$rootScope",
+app.directive('headerportifolio', ["$rootScope",
     function($rootScope) {
   return {
   	restrict: 'E',
