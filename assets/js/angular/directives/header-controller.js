@@ -6,14 +6,15 @@ app.directive('headerportifolio', ["$rootScope",
   	restrict: 'E',
     scope: {
       name: '=',
+      surname: '=',
       role: '=',
-      photo: '=',
-      twitter: '=',
-      gplus: '=',
-      linkedin: '=',
-      github: '=',
-      hackernews: '=',
-      email: '='
+      photo: '=?',
+      twitter: '=?',
+      gplus: '=?',
+      linkedin: '=?',
+      github: '=?',
+      hackernews: '=?',
+      email: '=?'
     },
   	link: function($scope){
 
