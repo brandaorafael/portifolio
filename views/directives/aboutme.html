@@ -2,10 +2,7 @@
     <div class="section-inner">
         <h2 class="heading">About Me</h2>
         <div class="content">
-            <p>I'm a developer with experience in several areas, including mobile apps and backend applications. I've just graduated in Computer Engineering at Polytechnic School at the University of São Paulo. I really like coding and one of my hobbies is to make all sort of projects that I keep available on my Github profile.</p>    
-
-            <p>Besides coding, I really enjoy walking and eating at good restaurants. I'm also passionate about Magic: The Gathering and I'm really into cinema and music.</p>
-         
+            <p ng-repeat='paragraph in rootScope.aboutme'>{{paragraph}}</p>
         </div><!--//content-->
     </div><!--//section-inner-->                 
 </section><!--//section-->

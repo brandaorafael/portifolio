@@ -4,9 +4,6 @@ app.directive('education', ["$rootScope",
   function($rootScope) {
     return {
       restrict: 'E',
-      scope: {
-        paragraphs: '@'
-      },
 
       link: function($scope){
 

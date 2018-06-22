@@ -1,6 +1,6 @@
 var app = angular.module('Portifolio');
 
-app.directive('codingMusic', ["$rootScope",
+app.directive('otherProjects', ["$rootScope",
   function($rootScope) {
     return {
       restrict: 'E',
@@ -11,7 +11,7 @@ app.directive('codingMusic', ["$rootScope",
 
       },
 
-      templateUrl: 'views/directives/coding-music.html'
+      templateUrl: 'views/directives/other-projects.html'
 
     };
   }

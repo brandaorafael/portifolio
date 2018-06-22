@@ -4,9 +4,6 @@ app.directive('credits', ["$rootScope",
   function($rootScope) {
     return {
       restrict: 'E',
-      scope: {
-        paragraphs: '@'
-      },
 
       link: function($scope){
 
