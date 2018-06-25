@@ -97,25 +97,39 @@ angular.module('Portifolio', [])
 	// Work Experience
 	$rootScope.experiences = [
 		{
-			role: 'Co-Founder & Lead Developer',
-			company: 'Startup Hub',
-			start: '2014',
+			role: 'Software Engineer',
+			company: 'CERC',
+			start: 'Jan 2018',
 			end: 'Present',
-			description: 'Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.'
+			description: 'CERC is an infrastructure for the financial market and it develops a tool for rating and registration of trade bills. I am responsible for the system support, deploy and development of the BI part of the system.'
 		},
 		{
 			role: 'Software Engineer',
-			company: 'Google',
-			start: '2013',
-			end: '2014',
-			description: 'Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.'
+			company: 'Appsimples / Outsmart',
+			start: 'Oct 2016',
+			end: 'Set 2017',
+			description: 'Outsmart (fromer Appsimples) is an app factory. I had experience with Mobile apps implementations, for both Android and iOS platforms, web apps implementations using Angular and React and APIs implementations using Node.JS.'
 		},
 		{
-			role: 'Software Engineerr',
-			company: 'eBay',
-			start: '2012',
-			end: '2013',
-			description: 'Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.'
+			role: 'Web Developer',
+			company: 'Ploomes',
+			start: 'Jan 2016',
+			end: 'May 2016',
+			description: 'Outsmart (former Appsimples) is an app factory. I had experience with Mobile apps implementations, for both Android and iOS platforms, web apps implementations using Angular and React and APIs implementations using Node.JS.'
+		},
+		{
+			role: 'Developer Intern',
+			company: 'Taqtile',
+			start: 'May 2015',
+			end: 'Sep 2015',
+			description: 'Taqtile is an app factory, specialized in UX and Design Thinking. I had experience with mobile apps (Android) and APIs (Node.js) implementations.'
+		},
+		{
+			role: 'Intern',
+			company: 'LARC - Laboratory of Computer Networks and Architecture',
+			start: 'Jul 2013',
+			end: 'Dec 2014',
+			description: 'LARC is a laboratory part of the University of São Paulo responsible for the study of computer networks. I worked on the project Science DMZ - The Science DMZ program aims the study and dissemination of better networks infrastructures practices for scientific applications. I was responsible for the development of automated speed test of the connections between servers.'
 		}
 	];
 
@@ -124,28 +138,28 @@ angular.module('Portifolio', [])
 	//Skills
 	$rootScope.skills = [
 		{
-			title: 'Python & Django',
+			title: 'Javascript & Node.JS',
 			levelLabel: 'Expert',
-			levelTooltip: 'You can use the tooltip to add more info...',
+			levelTooltip: 'Experience with planty of projects',
 			levelPercentage: '96%'
 		},
 		{
-			title: 'Javascript & jQuery',
+			title: 'iOS',
 			levelLabel: 'Expert',
-			levelTooltip: '',
+			levelTooltip: 'Have lots of published apps',
 			levelPercentage: '96%'
 		},
 		{
-			title: 'HTML5, CSS3, SASS & LESS',
-			levelLabel: 'Expert',
-			levelTooltip: '',
-			levelPercentage: '96%'
-		},
-		{
-			title: 'Ruby on Rails',
+			title: 'Angular',
 			levelLabel: 'Pro',
 			levelTooltip: '',
 			levelPercentage: '85%'
+		},
+		{
+			title: 'Ruby on Rails',
+			levelLabel: 'Intermediate',
+			levelTooltip: '',
+			levelPercentage: '70%'
 		},
 	];
 
@@ -161,30 +175,35 @@ angular.module('Portifolio', [])
 	//Education
 	$rootScope.education = [
 		{
-			title: 'MSc Psychology and Computer Science',
-			institution: 'University College London',
+			title: 'Computer Engineering',
+			institution: 'Polytechnic School - University of São Paulo',
 			start: '2011',
-			end: '2012'
+			end: '2017'
 		},
 		{
-			title: 'BSc Computer Science',
-			institution: 'University of Bristol',
-			start: '2008',
-			end: '2011'
+			title: 'Multimedia Production',
+			institution: 'Liceu de Artes e Ofícios de São Paulo',
+			start: '2007',
+			end: '2009'
 		}
 	];
 
 	//Languages
 	$rootScope.languages = [
 		{
-			language: 'English',
+			language: 'Portuguese',
 			level: 'Native Speaker',
 			stars: 5
 		},
 		{
-			language: 'Spanish',
+			language: 'English',
 			level: 'Professional Proficiency',
-			stars: 3.5
+			stars: 4.5
+		},
+		{
+			language: 'French',
+			level: 'Beginner',
+			stars: 2.5
 		}
 	];
 
