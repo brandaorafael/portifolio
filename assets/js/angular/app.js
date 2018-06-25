@@ -29,7 +29,7 @@ angular.module('Portifolio', [])
 		"Besides coding, I really enjoy walking and eating at good restaurants. I'm also passionate about Magic: The Gathering and I'm really into cinema and music."
 	];
 
-	//Latest Projects
+	//Latest Projects TODO
 	$rootScope.mainProject = {
 		title: 'KickStarter - Velocity',
 		subTitle: 'A responsive Bootstrap template designed for digital products',
@@ -69,7 +69,7 @@ angular.module('Portifolio', [])
 		},
 	];
 
-	// Other Projects
+	// Other Projects TODO
 	$rootScope.otherProjects = [
 		{
 			title: 'Project Title Cras Lacus',
@@ -163,7 +163,7 @@ angular.module('Portifolio', [])
 		},
 	];
 
-	// Testimonials
+	// Testimonials TODO
 	$rootScope.testimonials = [
 		{
 			quote: 'James is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!',
@@ -209,7 +209,7 @@ angular.module('Portifolio', [])
 
 	//Blog Posts
 
-	//music
+	//music TODO
 	$rootScope.musics = [
 		{
 			title: 'Etiam hendrerit urna nunc',
@@ -233,7 +233,7 @@ angular.module('Portifolio', [])
 		}
 	];
 
-	//Conferences
+	//Conferences TODO
 	$rootScope.conferences = [
 		{
 			title: 'WWDC 2014',
