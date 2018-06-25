@@ -1,0 +1,15 @@
+<aside class="testimonials aside section">
+	<div class="section-inner">
+		<h2 class="heading">Testimonials</h2>
+		<div class="content">
+
+			<div class="item" ng-repeat="testimonial in rootScope.testimonials">
+				<blockquote class="quote"><p><i class="fa fa-quote-left"></i>{{testimonial.quote}}</p></blockquote>
+				<p class="source"><span class="name">{{testimonial.name}}</span><br /><span class="title">{{testimonial.title}}</span></p>
+			</div><!--//item-->
+
+			<p><a class="more-link" href="{{rootScope.linkedin}}"><i class="fa fa-external-link"></i> More on Linkedin</a></p>
+
+		</div><!--//content-->
+	</div><!--//section-inner-->
+</aside><!--//section-->

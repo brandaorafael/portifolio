@@ -1,0 +1,12 @@
+<aside class="list music aside section">
+	<div class="section-inner">
+		<h2 class="heading">Favourite coding music</h2>
+		<div class="content">
+			<ul class="list-unstyled">
+
+				<li ng-repeat='music in rootScope.musics'><i class="fa fa-headphones"></i> <a href="{{music.link}}">{{music.title}} - {{music.artist}}</a></li>
+
+			</ul>
+		</div><!--//content-->
+	</div><!--//section-inner-->
+</aside><!--//section-->

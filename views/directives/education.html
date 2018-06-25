@@ -1,0 +1,12 @@
+<aside class="education aside section">
+	<div class="section-inner">
+		<h2 class="heading">Education</h2>
+		<div class="content">
+
+			<div class="item" ng-repeat='education in rootScope.education'>
+				<h3 class="title"><i class="fa fa-graduation-cap"></i> {{education.title}}</h3>
+				<h4 class="university">{{education.institution}} <span class="year">({{education.start}}-{{education.end}})</span></h4>
+			</div><!--//item-->
+		</div><!--//content-->
+	</div><!--//section-inner-->
+</aside><!--//section-->

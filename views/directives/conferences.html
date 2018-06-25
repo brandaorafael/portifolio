@@ -1,0 +1,12 @@
+<aside class="list conferences aside section">
+	<div class="section-inner">
+		<h2 class="heading">Conferences</h2>
+		<div class="content">
+			<ul class="list-unstyled">
+
+				<li ng-repeat='conference in rootScope.conferences'><i class="fa fa-calendar"></i> <a href="{{conference.link}}" target="_blank">{{conference.title}}</a> ({{conference.place}})</li>
+
+			</ul>
+		</div><!--//content-->
+	</div><!--//section-inner-->
+</aside><!--//section-->
