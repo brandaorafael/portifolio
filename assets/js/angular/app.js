@@ -10,7 +10,7 @@ angular.module('Portifolio', [])
 
 	$rootScope.email = 'r.augusto.brandao@gmail.com';
 
-	$rootScope.place = 'São Paulo, Brazil';
+	$rootScope.location = 'São Paulo, Brazil';
 
 	$rootScope.site = 'http://www.rafaelbrandao.xyz';
 
@@ -21,15 +21,51 @@ angular.module('Portifolio', [])
 	$rootScope.github = 'https://www.github.com/brandaorafael';
 	$rootScope.hackernews = '';
 
+	$rootScope.coderWall = '';
+
+	// About Me
 	$rootScope.aboutme = [
 		"I'm a developer with experience in several areas, including mobile apps and backend applications. I've just graduated in Computer Engineering at Polytechnic School at the University of São Paulo. I really like coding and one of my hobbies is to make all sort of projects that I keep available on my Github profile.",
 		"Besides coding, I really enjoy walking and eating at good restaurants. I'm also passionate about Magic: The Gathering and I'm really into cinema and music."
 	];
 
 	//Latest Projects
+	$rootScope.mainProject = {
+		title: 'KickStarter - Velocity',
+		subTitle: 'A responsive Bootstrap template designed for digital products',
+		link: 'http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/',
+		image: 'assets/images/projects/project-featured.png',
+		isNew: true,
+		description: [
+			'You can promote your main project here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.',
+			'Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. At vero eos et accusamus et iusto odio dignissimos ducimus.'
+		]
+	};
+
 	$rootScope.projects = [
 		{
-
+			link: 'http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-mobile-apps-atom/',
+			image: 'assets/images/projects/project-5.png',
+			title: 'Atom - Designed for Mobile Apps',
+			description: 'You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.'
+		},
+		{
+			link: 'http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/',
+			image: 'assets/images/projects/project-4.png',
+			title: 'DevStudio - Designed for Web Development Agencies',
+			description: 'You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.'
+		},
+		{
+			link: 'http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-startups-tempo/',
+			image: 'assets/images/projects/project-1.png',
+			title: 'Tempo - Designed for Startups',
+			description: 'You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.'
+		},
+		{
+			link: 'http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/',
+			image: 'assets/images/projects/project-2.png',
+			title: 'Delta - Designed for Mobile Apps',
+			description: 'You can put one of your secondary projects here. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.'
 		},
 	];
 
@@ -114,16 +150,83 @@ angular.module('Portifolio', [])
 	];
 
 	// Testimonials
+	$rootScope.testimonials = [
+		{
+			quote: 'James is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!',
+			name: 'Tim Adams',
+			title: 'Curabitur commodo'
+		}
+	];
 
 	//Education
+	$rootScope.education = [
+		{
+			title: 'MSc Psychology and Computer Science',
+			institution: 'University College London',
+			start: '2011',
+			end: '2012'
+		},
+		{
+			title: 'BSc Computer Science',
+			institution: 'University of Bristol',
+			start: '2008',
+			end: '2011'
+		}
+	];
 
 	//Languages
+	$rootScope.languages = [
+		{
+			language: 'English',
+			level: 'Native Speaker',
+			stars: 5
+		},
+		{
+			language: 'Spanish',
+			level: 'Professional Proficiency',
+			stars: 3.5
+		}
+	];
 
 	//Blog Posts
 
-	//Music
+	//music
+	$rootScope.musics = [
+		{
+			title: 'Etiam hendrerit urna nunc',
+			artist: '',
+			link: ''
+		},
+		{
+			title: 'Ut sollicitudin in mauris non auctor',
+			artist: '',
+			link: ''
+		},
+		{
+			title: 'Etiam hendrerit urna nunc',
+			artist: '',
+			link: ''
+		},
+		{
+			title: 'Duis et felis bibendum',
+			artist: '',
+			link: ''
+		}
+	];
 
 	//Conferences
+	$rootScope.conferences = [
+		{
+			title: 'WWDC 2014',
+			place: 'San Francisco',
+			link: 'https://developer.apple.com/wwdc/'
+		},
+		{
+			title: 'Hive',
+			place: 'Seattle',
+			link: 'http://hive.aigaseattle.org/'
+		}
+	];
 
 	//Credit
 

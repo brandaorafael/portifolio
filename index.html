@@ -3,156 +3,144 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-    <title>Responsive Portfolio Template for Developers</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Responsive HTML5 Website Landing Page for Developers">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-    <link rel="shortcut icon" href="favicon.ico">  
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
-    <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    
-    <!-- github calendar css -->
-    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css"/>
-    <!-- github acitivity css -->
-    <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-    
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<title>Responsive Portfolio Template for Developers</title>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Responsive HTML5 Website Landing Page for Developers">
+	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+	<link rel="shortcut icon" href="favicon.ico">  
+	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+	<!-- Global CSS -->
+	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+	<!-- github calendar css -->
+	<link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css"/>
+	<!-- github acitivity css -->
+	<link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	<!-- Theme CSS -->
+	<link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 
+	<!-- AngularJS 1.5.5 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+	<!-- app.js -->
+	<script src="assets/js/angular/app.js"></script>
+	<!-- directives -->
+	<script src="assets/js/angular/directives/header-controller.js"></script>
+	<script src="assets/js/angular/directives/aboutme-controller.js"></script>
+	<script src="assets/js/angular/directives/projects-controller.js"></script>
+	<script src="assets/js/angular/directives/other-projects-controller.js"></script>
+	<script src="assets/js/angular/directives/work-experience-controller.js"></script>
+	<script src="assets/js/angular/directives/github-controller.js"></script>
+	<script src="assets/js/angular/directives/basic-info-controller.js"></script>
+	<script src="assets/js/angular/directives/skills-controller.js"></script>
+	<script src="assets/js/angular/directives/testimonials-controller.js"></script>
+	<script src="assets/js/angular/directives/education-controller.js"></script>
+	<script src="assets/js/angular/directives/languages-controller.js"></script>
+	<script src="assets/js/angular/directives/blog-posts-controller.js"></script>
+	<script src="assets/js/angular/directives/coding-music-controller.js"></script>
+	<script src="assets/js/angular/directives/conferences-controller.js"></script>
+	<script src="assets/js/angular/directives/credits-controller.js"></script>
 
-    <!-- AngularJS 1.5.5 -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
-    <!-- app.js -->
-    <script src="assets/js/angular/app.js"></script>
-    <!-- directives -->
-    <script src="assets/js/angular/directives/header-controller.js"></script>
-    <script src="assets/js/angular/directives/aboutme-controller.js"></script>
-    <script src="assets/js/angular/directives/projects-controller.js"></script>
-    <script src="assets/js/angular/directives/project-controller.js"></script>
-    <script src="assets/js/angular/directives/other-projects-controller.js"></script>
-    <script src="assets/js/angular/directives/work-experience-controller.js"></script>
-    <script src="assets/js/angular/directives/github-controller.js"></script>
-    <script src="assets/js/angular/directives/basic-info-controller.js"></script>
-    <script src="assets/js/angular/directives/skills-controller.js"></script>
-    <script src="assets/js/angular/directives/testimonials-controller.js"></script>
-    <script src="assets/js/angular/directives/education-controller.js"></script>
-    <script src="assets/js/angular/directives/languages-controller.js"></script>
-    <script src="assets/js/angular/directives/blog-posts-controller.js"></script>
-    <script src="assets/js/angular/directives/coding-music-controller.js"></script>
-    <script src="assets/js/angular/directives/conferences-controller.js"></script>
-    <script src="assets/js/angular/directives/credits-controller.js"></script>
-    
 </head> 
 
 <body ng-app="Portifolio" ng-controller="appController as appCtrl">
-    <!-- ******HEADER****** --> 
-    <header class="header">
-        <!-- <headerportifolio photo='assets/images/brands.jpg'> </header-portifolio> -->
-        <headerportifolio > </header-portifolio>
-    </header><!--//header-->
-    
-    <div class="container sections-wrapper">
-        <div class="row">
-            <div class="primary col-md-8 col-sm-12 col-xs-12">
+	<!-- ******HEADER****** -->
+	<header class="header">
+		<!-- <headerportifolio photo='assets/images/brands.jpg'> </header-portifolio> -->
+		<headerportifolio > </header-portifolio>
+	</header><!--//header-->
 
-                <aboutme></aboutme>
+	<div class="container sections-wrapper">
+		<div class="row">
+			<div class="primary col-md-8 col-sm-12 col-xs-12">
 
-                <projects></projects>
-                
-                <other-projects></other-projects>
-                
-                <work-experience></work-experience>
-                
-                <!-- Esse pedaço do código não fucniona bem dentro de uma directive -->
-                
-                <github></github>
+				<aboutme></aboutme>
 
-                <section class="github section">
-                    <div class="section-inner">
-                        <h2 class="heading">My GitHub</h2>
-                        <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget. 
-                        
-                        <div id="github-graph" class="github-graph">
+				<projects></projects>
 
-                        </div><!--//github-graph-->
+				<other-projects></other-projects>
 
-                        <p>You can also embed your GitHub activities using Casey Scarborough's <a href="http://caseyscarborough.com/projects/github-activity/" target="_blank">GitHub Activity Stream</a> widget.        
-                        <!--//Usage: http://caseyscarborough.com/projects/github-activity/ -->                       
-                        <div id="ghfeed" class="ghfeed">
-                        </div><!--//ghfeed-->
-                        
-                    </div><!--//secton-inner-->
-                </section><!--//section-->
-            </div><!--//primary-->
-            <div class="secondary col-md-4 col-sm-12 col-xs-12">
-                <basic-info></basic-info>
-                
-                <skills></skills>
-                
-                <testimonials></testimonials>
-                
-                <education></education>
-                            
-                <languages></languages>
-                
-                <!-- Esse pedaço do código não fucniona bem dentro de uma directive -->
+				<work-experience></work-experience>
 
-                <blog-posts></blog-posts>
+				<!-- Esse pedaço do código não fucniona bem dentro de uma directive -->
+				<github></github>
 
-                <aside class="blog aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Latest Blog Posts</h2>
-                        <p>You can use Sascha Depold's <a href="https://github.com/sdepold/jquery-rss" target="_blank">jQuery RSS plugin</a> to pull in your blog post feeds.</p>
-                        <div id="rss-feeds" class="content">
+				<section class="github section">
+					<div class="section-inner">
+						<h2 class="heading">My GitHub</h2>
+						<p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget.</p>
+						<div id="github-graph" class="github-graph"></div><!--//github-graph-->
+						<p>You can also embed your GitHub activities using Casey Scarborough's <a href="http://caseyscarborough.com/projects/github-activity/" target="_blank">GitHub Activity Stream</a> widget.</p>
+						<!--//Usage: http://caseyscarborough.com/projects/github-activity/ -->                       
+						<div id="ghfeed" class="ghfeed"></div><!--//ghfeed-->
+					</div><!--//secton-inner-->
+				</section><!--//section-->
 
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+			</div><!--//primary-->
 
-                <coding-music></coding-music>
-                
-                <conferences></conferences>
-                
-                <credits></credits>
-              
-            </div><!--//secondary-->    
-        </div><!--//row-->
-    </div><!--//masonry-->
-    
-    <!-- ******FOOTER****** --> 
-    <footer class="footer">
-        <div class="container text-center">
-                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-        </div><!--//container-->
-    </footer><!--//footer-->
- 
-    <!-- Javascript -->
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
-    <!-- github calendar plugin -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
-    <!-- github activity plugin -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
+			<div class="secondary col-md-4 col-sm-12 col-xs-12">
+				<basic-info></basic-info>
+
+				<skills></skills>
+
+				<testimonials></testimonials>
+
+				<education></education>
+
+				<languages></languages>
+
+				<!-- Esse pedaço do código não fucniona bem dentro de uma directive -->
+				<blog-posts></blog-posts>
+
+				<aside class="blog aside section">
+					<div class="section-inner">
+						<h2 class="heading">Latest Blog Posts</h2>
+						<p>You can use Sascha Depold's <a href="https://github.com/sdepold/jquery-rss" target="_blank">jQuery RSS plugin</a> to pull in your blog post feeds.</p>
+						<div id="rss-feeds" class="content"></div><!--//content-->
+					</div><!--//section-inner-->
+				</aside><!--//section-->
+
+				<coding-music></coding-music>
+
+				<conferences></conferences>
+
+				<credits></credits>
+
+			</div><!--//secondary-->    
+		</div><!--//row-->
+	</div><!--//masonry-->
+
+	<!-- ******FOOTER****** -->
+	<footer class="footer">
+		<div class="container text-center">
+			<!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+			<small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+		</div><!--//container-->
+	</footer><!--//footer-->
+
+	<!-- Javascript -->
+	<script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+	<!-- github calendar plugin -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+	<!-- github activity plugin -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
+	<!-- custom js -->
+	<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html> 
 
