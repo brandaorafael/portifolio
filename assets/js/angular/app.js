@@ -160,7 +160,7 @@ angular.module('Portifolio', [])
 			levelLabel: 'Intermediate',
 			levelTooltip: '',
 			levelPercentage: '70%'
-		},
+		}
 	];
 
 	// Testimonials TODO
