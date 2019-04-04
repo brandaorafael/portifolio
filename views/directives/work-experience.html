@@ -4,7 +4,7 @@
 		<div class="content">
 
 			<div class="item" ng-repeat="experience in rootScope.experiences">
-				<h3 class="title">{{experience.role}} - <span class="place"><a href="#">{{experience.company}}</a></span>
+				<h3 class="title">{{experience.role}} - <span class="place"><a href={{experience.url}} target="_blank">{{experience.company}}</a></span>
 					<span class="year">({{experience.start}} - {{experience.end}})</span>
 				</h3>
 				<p>{{experience.description}}</p>

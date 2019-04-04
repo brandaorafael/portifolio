@@ -6,7 +6,7 @@ angular.module('Portifolio', [])
 	// Basic Info
 	$rootScope.name = 'Rafael Brandão';
 
-	$rootScope.role = 'Developer';
+	$rootScope.role = 'Software Engineer';
 
 	$rootScope.email = 'r.augusto.brandao@gmail.com';
 
@@ -21,7 +21,7 @@ angular.module('Portifolio', [])
 	$rootScope.github = 'https://www.github.com/brandaorafael';
 	$rootScope.hackernews = '';
 
-	$rootScope.coderWall = '';
+	$rootScope.coderWall = 'https://coderwall.com/brandaorafael';
 
 	// About Me
 	$rootScope.aboutme = [
@@ -79,10 +79,10 @@ angular.module('Portifolio', [])
 			linkButton: ' Find out more'
 		},
 		{
-			title: 'Project Title Cras eget lacus',
+			title: 'Node Base Project',
 			openSource: true,
-			description: 'Provide a brief description of your project. Maecenas ornare ultricies risus, in fermentum augue consectetur in. Vestibulum vitae mauris iaculis, sollicitudin velit in, molestie nulla. ',
-			link: 'http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/',
+			description: 'A project of a basic API struct. The branches have some specific functionalities.',
+			link: 'https://github.com/brandaorafael/NodeBaseProject',
 			linkButton: ' View on GitHub'
 		},
 		{
@@ -98,55 +98,70 @@ angular.module('Portifolio', [])
 	$rootScope.experiences = [
 		{
 			role: 'Software Engineer',
+			company: 'Dafiti',
+			start: 'Feb 2019',
+			end: 'Present',
+			description: 'Dafiti is the biggest clothing e-commerce in Brazil. I\'m part of the Freight and King (internal plattaform for the customer service center team) squad. Always trying to find the best solutions, our squad believes more in choosing the right stack and architecture for the problem than in keeping the same patterns.',
+			url: 'https://www.dafiti.com.br/'
+		},
+		{
+			role: 'Software Engineer',
 			company: 'CERC',
 			start: 'Jan 2018',
-			end: 'Present',
-			description: 'CERC is an infrastructure for the financial market and it develops a tool for rating and registration of trade bills. I am responsible for the system support, deploy and development of the BI part of the system.'
+			end: 'Feb 2019',
+			description: 'CERC is an infrastructure for the financial market and it develops a tool for rating and registration of trade bills. I am responsible for the system support, deploy and development of the BI part of the system.',
+			url: 'http://www.cerc.inf.br/'
 		},
 		{
 			role: 'Software Engineer',
 			company: 'Appsimples / Outsmart',
 			start: 'Oct 2016',
 			end: 'Set 2017',
-			description: 'Outsmart (fromer Appsimples) is an app factory. I had experience with Mobile apps implementations, for both Android and iOS platforms, web apps implementations using Angular and React and APIs implementations using Node.JS.'
+			description: 'Outsmart (fromer Appsimples) is an app factory. I had experience with Mobile apps implementations, for both Android and iOS platforms, web apps implementations using Angular and React and APIs implementations using Node.JS.',
+			url: 'https://www.appsimples.com.br/'
 		},
 		{
 			role: 'Web Developer',
 			company: 'Ploomes',
 			start: 'Jan 2016',
 			end: 'May 2016',
-			description: 'Outsmart (former Appsimples) is an app factory. I had experience with Mobile apps implementations, for both Android and iOS platforms, web apps implementations using Angular and React and APIs implementations using Node.JS.'
+			description: 'Ploomes develops a CRM platform that helps business from the contact with clients until closing deals. I implemented most of the browser functionalities using the Angular framework.',
+			url: 'https://www.ploomes.com/'
 		},
 		{
 			role: 'Developer Intern',
 			company: 'Taqtile',
 			start: 'May 2015',
 			end: 'Sep 2015',
-			description: 'Taqtile is an app factory, specialized in UX and Design Thinking. I had experience with mobile apps (Android) and APIs (Node.js) implementations.'
+			description: 'Taqtile is an app factory, specialized in UX and Design Thinking. I had experience with mobile apps (Android) and APIs (Node.js) implementations.',
+			url: 'https://www.taqtile.com.br/'
 		},
 		{
 			role: 'Intern',
 			company: 'LARC - Laboratory of Computer Networks and Architecture',
 			start: 'Jul 2013',
 			end: 'Dec 2014',
-			description: 'LARC is a laboratory part of the University of São Paulo responsible for the study of computer networks. I worked on the project Science DMZ - The Science DMZ program aims the study and dissemination of better networks infrastructures practices for scientific applications. I was responsible for the development of automated speed test of the connections between servers.'
+			description: 'LARC is a laboratory part of the University of São Paulo responsible for the study of computer networks. I worked on the project Science DMZ - The Science DMZ program aims the study and dissemination of better networks infrastructures practices for scientific applications. I was responsible for the development of automated speed test of the connections between servers.',
+			url: 'https://www.larc.usp.br/'
 		}
 	];
 
 	//Github
 
 	//Skills
+	$rootScope.skillsIntro = "Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Coderwall profile so people can get more info there."
+
 	$rootScope.skills = [
-		{
-			title: 'Javascript & Node.JS',
-			levelLabel: 'Expert',
-			levelTooltip: 'Experience with planty of projects',
-			levelPercentage: '96%'
-		},
 		{
 			title: 'iOS',
 			levelLabel: 'Expert',
 			levelTooltip: 'Have lots of published apps',
+			levelPercentage: '96%'
+		},
+		{
+			title: 'Javascript & Node.JS',
+			levelLabel: 'Expert',
+			levelTooltip: 'Experience with planty of projects',
 			levelPercentage: '96%'
 		},
 		{
@@ -203,7 +218,7 @@ angular.module('Portifolio', [])
 		{
 			language: 'French',
 			level: 'Beginner',
-			stars: 2.5
+			stars: 2
 		}
 	];
 
